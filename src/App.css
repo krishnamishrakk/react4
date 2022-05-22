@@ -1,7 +1,14 @@
+
+@import url(./components/Style.css);
 .App {
   text-align: center;
 }
-
+.navbar{
+  background-color: blue;
+}
+.btn{
+  background-color:red;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

@@ -1,0 +1,46 @@
+#navBar{
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:active{
+    color: blue;
+}
+a:hover{
+    color: blue;
+}
+.cont{
+    color:black;
+    background-color: rgb(215, 137, 120);
+}
+#im{
+    border-radius: 50%;
+    margin: 1vw;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+#imgCont{
+    border-radius: 50%;
+    align-items: center;
+}
+@media (max-width:720px){
+    .cont{
+        display: inline;
+        color: black;
+    }
+    a{
+        color: black;
+    }
+    #imgCont{
+        width: 60vw;
+    }
+}
